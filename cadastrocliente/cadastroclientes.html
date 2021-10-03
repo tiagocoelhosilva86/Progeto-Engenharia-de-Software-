@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-body">
+            <h1>Cadastro de Cliente</h1>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="inputemail">E-mail</label>
+                        <input type="email" class="form-control" id="inputemail" placeholder="Digite Seu E-mail">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputnome">Nome</label>
+                        <input type="nome" class="form-control" id="inputnome" placeholder="Digite Seu Nome">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputsobrenome">Sobrenome</label>
+                        <input type="sobrenome" class="form-control" id="inputsobrenome"
+                            placeholder="Digite Seu Sobrenome">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputsenha">Senha</label>
+                        <input type="senha" class="form-control" id="inputsenha" placeholder="Digite Sua Senha">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputcomfirmasenha">Comfirme a Senha</label>
+                        <input type="comfirmasenha" class="form-control" id="inputcomfirmasenha"
+                            placeholder="Confirme Sua Senha">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-2">
+                        <label for="inputselect">Select</label>
+                        <select id="inputselect" class="form-control">
+                            <option selected>Select</option>
+                            <option>Apartamento</option>
+                            <option>Casa</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputendereco">Endereço</label>
+                        <input type="endereco" class="form-control" id="inputendereco"
+                            placeholder="Digite Seu Endereço">
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="inputcep">Cep</label>
+                        <input type="cep" class="form-control" id="inputcep" placeholder="Cep">
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="inputcep">Telefone</label>
+                        <input type="telefone" class="form-control" id="inputtelefone"
+                            placeholder="Telefone">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                         <p style="color:red;">Eu Li Aceito os Termos de Uso</p>
+                        </label>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary btn-lg btn-block">Regirtar</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

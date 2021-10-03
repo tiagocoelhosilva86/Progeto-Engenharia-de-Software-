@@ -1,0 +1,44 @@
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Helvetica;
+        color:#323232;
+        border:none;
+}
+
+body {
+    background-image: url('E:/Repositorios/TrabalhoemC/projeto/cadatrotransportadora/img/im_bc.jpg');
+    background-size:  cover;
+}
+
+/* formulário */
+.card {
+    margin:auto;
+    margin-top: 20px;
+    padding:10px;
+    width: 600px;
+    background-color:#fff;
+}
+.form-control{
+
+    border-bottom: 2px solid #383838;
+    padding: 10px;
+    font-size: 1rem;
+}
+.form-control:focus {
+    border-bottom: 2px solid #0026fd;
+}
+label {
+   font-size:.8rem;
+
+}
+.form-group{
+    margin: 0;
+}
+
+.form-check {
+     
+     font-style: italic;
+}
